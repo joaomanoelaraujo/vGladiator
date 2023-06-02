@@ -1,0 +1,46 @@
+# Executáveis:
+# CORE>jogos
+# CORE>perfil
+# CORE>jogadores
+# GLADIATOR>loja
+# GLADIATOR>lobbies
+# GLADIATOR>espectar
+# GLADIATOR>jogar
+# GLADIATOR>sair
+# COMANDO>exemplo
+# MENSAGEM>&aExemplo
+lobby:
+ bussola:
+  slot: 1
+  execute: 'CORE>jogos'
+  icon: 'COMPASS : 1 : nome>&eMinigames : desc>&7Sabemos que é uma difícil escolha...'
+ perfil:
+  slot: 2
+  execute: 'CORE>perfil'
+  icon: '%perfil%SKULL_ITEM:3 : 1 : nome>&eMeu Perfil : desc>&7Clique para ver suas\n&7informações pessoais!'
+ loja:
+  slot: 5
+  execute: 'GLADIATOR>loja'
+  icon: 'CHEST : 1 : nome>&eLoja : desc>&fCoins: &6%kCore_GLADIATOR_coins%'
+ jogadores:
+  slot: 8
+  execute: 'CORE>jogadores'
+  icon: 'INK_SACK:%kcore_status_jogadores_inksack% : 1 : nome>&fJogadores: %kcore_status_jogadores_nome% : desc>&7Clique para que os jogadores\n&7desapareçam!'
+ lobbies:
+  slot: 9
+  execute: 'GLADIATOR>lobbies'
+  icon: 'NETHER_STAR : 1 : nome>&eLobbies : desc>&7Clique para selecionar um lobby!'
+waiting:
+ sair:
+  slot: 5
+  execute: 'GLADIATOR>sair'
+  icon: 'BED : 1 : nome>&cVoltar ao Lobby'
+spectator:
+ jogar:
+  slot: 4
+  execute: 'GLADIATOR>jogar'
+  icon: 'PAPER : 1 : nome>&bJogar Novamente'
+ sair:
+  slot: 6
+  execute: 'GLADIATOR>sair'
+  icon: 'BED : 1 : nome>&cVoltar ao Lobby'
