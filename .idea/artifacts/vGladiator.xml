@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="vGladiator">
+    <output-path>$USER_HOME$/AppData/Roaming/.feather/player-server/servers/6458a07a-2ca7-488c-8f1f-25f73213ef95/plugins</output-path>
+    <root id="archive" name="vGladiator.jar">
+      <element id="module-output" name="vGladiator" />
+    </root>
+  </artifact>
+</component>
