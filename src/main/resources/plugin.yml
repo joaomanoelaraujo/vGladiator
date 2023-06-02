@@ -1,6 +1,6 @@
 author: D4RKK
 name: vGladiator
 version: 1.0
-depend: [kCore]
+depend: [bCore]
 
 main: br.com.johnmanoel.d4rkk.glad.JavaGlad
